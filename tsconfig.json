@@ -1,0 +1,17 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@store/*": ["store/*"],
+      "@routes/*": ["routes/*"],
+      "@assets/*": ["assets/*"],
+      "@services/*": ["services/*"],
+      "@navigation/*": ["navigation/*"],
+      "@native-modules/*": ["native-modules/*"]
+    }
+  },
+  "include": ["src", "src/assets/globalTheme/themes/syled.d.ts"],
+  "exclude": ["**/node_modules", "**/Pods"]
+}
